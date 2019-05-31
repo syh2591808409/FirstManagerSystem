@@ -50,6 +50,11 @@ spring:
         max-wait: 10000
     timeout: 0
 
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
 #mybatis plus 设置
 mybatis-plus:
